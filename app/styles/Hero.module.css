@@ -1,0 +1,25 @@
+.hero {
+    height: 90vh;
+    background: url("https://i.pinimg.com/736x/a0/86/f1/a086f1c90f053fcb9efa1e8dbad4f209.jpg") center/cover no-repeat;
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(2, 0, 0);
+  }
+  
+  .button {
+    margin-top: 10px;
+    background: #4f4df2;
+    padding: 14px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  

@@ -1,17 +1,15 @@
-import Image from "next/image"
+import Header from "./componentes/Header"
+import Hero from "./componentes/Hero"
+import Cards from "./componentes/Cards"
+import Footer from "./componentes/Footer"
 
 export default function Home() {
   return (
-    <div>
-      <h1>ERYKA LIMA DA SILVA</h1>
-
-      <Image 
-        src="/img1.jpg" 
-        alt="Foto exemplo" 
-        width={500}
-        height={300}
-        />
-    </div>
-
+    <>
+      <Header />
+      <Hero />
+      <Cards />
+      <Footer />
+    </>
   );
 }
