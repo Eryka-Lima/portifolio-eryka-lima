@@ -3,14 +3,16 @@
     justify-content: center;
     gap: 20px;
     padding: 70px 20px;
+    color: rgb(110, 18, 95);
+    font-weight: bold;
   }
   
   .card {
-    background: rgb(10, 53, 82);
+    background: rgb(250, 172, 120);
     border-radius: 12px;
     padding: 30px;
     width: 300px;
     /* background: url("https://img.freepik.com/foto-gratis/wallpaper-bulan-seni-digital_23-2150918875.jpg") center/cover no-repeat; */
-    box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 5px 12px rgba(14, 1, 1, 0.15);
   }
   

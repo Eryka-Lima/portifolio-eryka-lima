@@ -6,7 +6,9 @@ export default function Cards() {
     { title: "LINGUAGENS DE PROGRAMAÇÃO", desc: "HTML5, CSS3, JavaScript, Design Systems e Python" },
     { title: "FERRAMENTAS DE PROTOTIPAÇÃO E ARQUITETURA", desc: "Figma, Miro,Notion e Trello." },
     { title: "CARACTERÍSTICAS", desc: "Foco no Usuário, Criatividade com Objetividade, Boa Comunicação e Empatia, " },
-  ];
+    { title: "HABILIDADES", desc: "Liderança, Organização, Planejamento, Técnia e Criatividade " },
+    {title: "CURSOS", desc: "Desenvolvimentos de Sitemas| ETEC CAMARGO ARANHA, Dev. Games| ZION SCHOOL, Segurança de Dados| CISCO " },
+    ];
 
   return (
     <section className={styles.cards} id="sobre">
@@ -19,3 +21,4 @@ export default function Cards() {
     </section>
   );
 }
+
